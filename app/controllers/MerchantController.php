@@ -354,7 +354,7 @@ class MerchantController extends BaseController {
             if($merchant){
                 $merchant->status = $status;
                 if($status == 2){
-                    $sendState = Yimei::sendSMS([$merchant->mobile],'【UNES优理氏】您好，您的入驻申请已审核通过,登录初始密码为您填写的手机号码后六位！请及时登录修改密码！');
+                    $sendState = Yimei::sendSMS([$merchant->mobile],'【哲品】您好，您的入驻申请已审核通过,登录初始密码为您填写的手机号码后六位！请及时登录修改密码！');
                     $leader = $merchant->leader;
                     if($leader){
                         $leader->follower_num += 1;
@@ -366,7 +366,7 @@ class MerchantController extends BaseController {
                         }
                     }
                 }else{
-                    $sendState = Yimei::sendSMS([$merchant->mobile],'【UNES优理氏】您好，您的入驻申请未通过,您可以重填资料再次申请！');
+                    $sendState = Yimei::sendSMS([$merchant->mobile],'【哲品】您好，您的入驻申请未通过,您可以重填资料再次申请！');
                     $merchant->visible = 0;
                     if($sendState === '0'){
                         if($merchant->save()){

@@ -5,7 +5,7 @@
         <div id="sunn_main">
 
             <section class="header">
-                <div class="htitle common">门店管理</div>
+                <div class="htitle common">BA管理</div>
                 <a href="javascript:history.back(-1)" class="hleft"></a>
             </section><!-- 头部 -->
 

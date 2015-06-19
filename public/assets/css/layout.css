@@ -37,7 +37,8 @@ html {
 body {
   margin: 0;
   font-family: '微软雅黑','Arial';
-  background: url("../images/body_bg.png") repeat #edebde;
+ /* background: url("../images/body_bg.png") repeat #edebde;*/
+    background: #dedede;
   font-size: 62.5%; }
   body.noscroll {
     height: 100% !important;
@@ -127,7 +128,7 @@ a {
     padding-bottom: 10em; }
 
 #header {
-  background-color: #FFF;
+  background-color: #dedede;
   color: #3F3F3F;
   padding: 1em 2em;
   border-bottom: 1px solid #2B286F; }
@@ -394,11 +395,11 @@ a {
       border-bottom: 1px solid #d9c6b9;
       border-left: 4px solid transparent; }
       #main-content .product-categories .left li.active {
-        background-color: #edebde;
+        background-color: #f9f9f9;
         border-left: 4px solid #5b3c80;
         border-right-color: transparent; }
         #main-content .product-categories .left li.active a {
-          color: #5B3C80; }
+          color: #A57D49; }
       #main-content .product-categories .left li a {
         display: block;
         font-size: 2.8em;
@@ -406,7 +407,7 @@ a {
   #main-content .product-categories .right {
     width: 70%;
     padding: 2.5%;
-    background-color: #edebde;
+    background-color: #f9f9f9;
     position: relative;
     left: 25%; }
     #main-content .product-categories .right .section-title {
@@ -2045,3 +2046,7 @@ p.form-tip {
   font-size: 2em; }
 
 /*# sourceMappingURL=layout.css.map */
+
+
+
+

@@ -126,7 +126,7 @@
              <div class="home-newarrival">
                  <div class="bigtag">
                      <div class="bt-title">
-                         {{$key+1}}F {{$category->name}}
+                         {{--{{$key+1}}F --}}{{$category->name}}
                      </div>
                      <div class="bt-more">
                          <a href="{{AppHelper::UrlRoute(false,'products',['catId'=>$category->id])}}">更多</a>

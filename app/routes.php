@@ -42,6 +42,12 @@ Route::group(['before'=>'get_mid'],function(){
         //商家操作权限组
         Route::group(['before'=>'auth_merchant'],function(){
 
+            //素材库
+            Route::group(['prefix'=>'sources'],function(){
+                Route::get('list/{type}',['as'=>'sources.list','uses'=>'SourceLibraryController@getSourceList']);
+                Route::get('{id}/share',['as'=>'sources.share','uses'=>'SourceLibraryController@getSharePage']);
+            });
+
             Route::group(['prefix'=>'home'],function(){
                 Route::get('/',['as'=>'merchants.home','uses'=>'MerchantController@getIndex']);
             });

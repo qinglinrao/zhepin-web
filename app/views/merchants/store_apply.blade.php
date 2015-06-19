@@ -5,7 +5,7 @@
         <div id="sunn_main">
             <p class="form-tip">{{$errors->first()}}</p>
             <section class="header">
-                <div class="htitle common">门店加盟</div>
+                <div class="htitle common">店员加盟</div>
                 <a href="javascript:history.back(-1)" class="hleft"></a>
             </section><!-- 头部 -->
 

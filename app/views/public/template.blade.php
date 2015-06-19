@@ -10,7 +10,7 @@
     <meta http-equiv="Expires" CONTENT="-1">
     <meta http-equiv="Cache-Control" CONTENT="no-cache">
     <meta http-equiv="Pragma" CONTENT="no-cache">
-    <title>初睿</title>
+    <title>哲品</title>
     <meta name="keywords" content=""/>
     <meta name="description" content=""/>
 

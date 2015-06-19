@@ -170,7 +170,7 @@ class AutoProfitCommand extends Command {
             $account_log->status = 2;
             $account_log->log = '从订单【'.$order->order_sn.($direct?'】直接':'】间接').'获得分润￥'.$money.'
             (产品ID:'.$product->id.';SKU:'.$product->sku.';销售价:'.$product->sale_price.';分润额:'.$product->profit.';
-            分润配置:[BA:'.$product->ba_profit.'%,门店:'.$product->store_profit.'%,代理商:'.$product->agent_profit.'%]
+            分润配置:[消费者A:'.$product->ba_profit.'%,店员:'.$product->store_profit.'%,门店:'.$product->agent_profit.'%]
             )';
             $account_log->save();
         }else{

@@ -4,7 +4,7 @@
 	<div class="sunn_wrapper">
         <div id="sunn_main">
             <section class="header">
-                <div class="htitle companyt">UNES</div>
+                <div class="htitle companyt">哲品</div>
             </section><!-- 头部 -->
 
 
@@ -78,7 +78,7 @@
                 <div class="hc-block cl5">
                      <a href="{{URL::route('merchants.follower.manage')}}">
                        <div class="hcicon"></div>
-                       <div class="word">{{$merchant->merchant_grade == 2?'BA管理':'门店管理'}}</div>
+                       <div class="word">{{$merchant->merchant_grade == 2?'消费者A管理':'店员管理'}}</div>
                      </a>
                  </div>
                  @endif

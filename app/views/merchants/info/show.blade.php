@@ -48,6 +48,16 @@
                         </div>
                    </div>
                   </a>
+
+                <a href="{{URL::route('sources.list',['type'=>2])}}">
+                    <div class="evticon pc04">
+                        <div class="etleft">
+                            素材库
+                        </div>
+                        <div class="etarrow">
+                        </div>
+                    </div>
+                </a>
             </div>
 
             @if($merchant->merchant_grade <=2)

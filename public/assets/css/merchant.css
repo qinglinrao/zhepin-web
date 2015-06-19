@@ -68,7 +68,7 @@ ins {
 body {
   font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
   color: #3f3f3f;
-  background: #f7efeb; }
+  background: #dedede; }
 
 input[type="text"], input[type="password"], div, ul, li, input, a, textarea {
   box-sizing: border-box;
@@ -301,6 +301,7 @@ p.form-tip {
       cursor: pointer; }
 
 #sunn_main {
+    background: #ffffff;
   width: 100%;
   min-width: 320px;
   max-width: 640px;
@@ -310,7 +311,7 @@ p.form-tip {
     width: 100%;
     height: 3.48em;
     border-bottom: 1px solid #2b286f;
-    background: #fff;
+    background: #dedede;
     text-align: center;
     position: relative; }
     #sunn_main .header .htitle {
@@ -375,7 +376,7 @@ p.form-tip {
       height: 3.48em;
       display: block;
       background: url(../images/logo.png) center center no-repeat;
-      background-size: 4.36rem 1.56rem;
+      background-size: 3.33rem 2.56rem;
       -webkit-background-size: 4.36rem 1.56rem;
       -moz-background-size: 4.36rem 1.56rem;
       -o-background-size: 4.36rem 1.56rem;
@@ -1734,3 +1735,96 @@ p.form-tip {
           display: block; }
 
 /*# sourceMappingURL=merchant.css.map */
+
+
+/*素材库*/
+#main-content .sources ul.list-wrapper {
+    width: 98%;
+    margin: 0 auto;
+    height: auto;
+    overflow: hidden; }
+#main-content .sources ul.list-wrapper li {
+    width: 100%;
+    padding: 0.5em 0;
+    height: auto;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc; }
+#main-content .sources ul.list-wrapper li a img.source-img {
+    width: 4em;
+    height: 4em;
+    float: left;
+    display: inline-block;
+    margin-right: 0.5em; }
+#main-content .sources ul.list-wrapper li a .source-intro {
+    width: 70%;
+    float: left;
+    color: #aaaaaa; }
+#main-content .sources ul.list-wrapper li a .source-intro h4 {
+    font-size: 0.7em;
+    line-height: 1.3em;
+    color: #666;
+    height: 2.8em;
+    overflow: hidden;
+    font-weight: 700; }
+#main-content .sources ul.list-wrapper li a .source-intro p {
+    height: 3.6em;
+    line-height: 1.2em;
+    overflow: hidden;
+    font-size: 0.65em; }
+#main-content .sources ul.image-list {
+    width: 96%;
+    margin: 0 auto;
+    /* 栏宽度 */
+    -webkit-column-width: 7em;
+    -moz-column-width: 7em;
+    -o-colum-width: 7em;
+    column-width: 7em;
+    /* 两栏之间的间距 */
+    -webkit-column-gap: 2px;
+    -moz-column-gap: 2px;
+    -o-column-gap: 2px;
+    column-gap: 2px; }
+#main-content .sources ul.image-list li a {
+    width: 100%; }
+#main-content .sources ul.image-list li a img {
+    width: 98%;
+    margin: 5px auto; }
+#main-content .sources ul.image-list li a p {
+    display: none; }
+#main-content .sources ul.image-list li a h4 {
+    display: none; }
+#main-content .source-share {
+    width: 95%;
+    margin: 0 auto;
+    padding: 0.3em 0; }
+#main-content .source-share h4.title {
+    text-align: center;
+    font-size: 1em;
+    color: #333;
+    font-weight: 600;
+    margin: 0 auto;
+    padding-top: 0.5em;
+    height: auto;
+    overflow: hidden; }
+#main-content .source-share .share_time {
+    color: #999;
+    font-size: 0.65em; }
+#main-content .source-share .share_time span.date {
+    display: inline-block;
+    height: 2.5em;
+    line-height: 2.5em;
+    margin-right: 0.5em; }
+#main-content .source-share .share_time span.author {
+    display: inline-block;
+    height: 2.5em;
+    line-height: 2.5em; }
+#main-content .source-share .share_time span.author a {
+    color: #607FA6; }
+#main-content .source-share .content {
+    padding-bottom: 1em;
+    margin: 0 auto;
+    font-size: 0.8em;
+    line-height: 1.4em; }
+#main-content .source-share .content img {
+    max-width: 100%;
+    margin-top: 0.2em; }
