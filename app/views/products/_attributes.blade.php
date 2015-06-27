@@ -49,15 +49,3 @@
 	</div>
 </div>
 
-@section('scripts')
-	@parent
-	<script type="text/javascript">
-		var AttrForm = new Object();
-		AttrForm['productEntities'] = {{$product->entities}};//所有商品组合实例
-		AttrForm['optionsCount'] = {{$product->options->count()}};
-		AttrForm['totalStock'] = {{$stock}}; //总库存
-		AttrForm['selectedIds'] = new Object();//选中参数数组
-		AttrForm['productId'] = {{$product->id}};
-	</script>
-	{{HTML::script('/assets/js/attr_form.js')}}
-@stop

@@ -2,6 +2,15 @@
 
 
 @section('scripts')
+    {{HTML::script('/assets/js/attr_form.js')}}
+    <script type="text/javascript">
+        var AttrForm = new Object();
+        AttrForm['productEntities'] = {{$product->entities}};//所有商品组合实例
+        AttrForm['optionsCount'] = {{$product->options->count()}};
+        AttrForm['totalStock'] = {{$stock}}; //总库存
+        AttrForm['selectedIds'] = new Object();//选中参数数组
+        AttrForm['productId'] = {{$product->id}};
+    </script>
 <script>
     $(function(){
         var shareData = {
@@ -71,9 +80,9 @@
 						{{--</div>--}}
 					</div>
 					<div class="par-price-wrapper clearfix">
-						<div class="prod-par-price">
+						{{--<div class="prod-par-price">
 							<span>￥{{AppHelper::price($product->par_price)}}</span>
-						</div>
+						</div>--}}
 						<div class="prod-sale-count">
 							<span>已售{{$product->sale_count}}件</span>
 						</div>

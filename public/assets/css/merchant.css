@@ -384,17 +384,17 @@ p.form-tip {
       left: 1.6em;
       top: 0; }
     #sunn_main .header .monav {
-      width: 3.48em;
-      height: 3.48em;
+      width: 2em;
+      height: 2em;
       display: block;
-      background: url(../images/navigation.png) center center no-repeat;
+        background-image: url("../images/cat_icon.png");
       background-size: 2rem 2rem;
       -webkit-background-size: 2rem 2rem;
       -moz-background-size: 2rem 2rem;
       -o-background-size: 2rem 2rem;
       position: absolute;
-      right: 0;
-      top: 0; }
+      right: 0.5rem;
+      top: 0.5rem; }
     #sunn_main .header .hleft {
       width: 3.48em;
       height: 3.48em;

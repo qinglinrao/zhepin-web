@@ -45,15 +45,19 @@
             <div class="sources">
                 <ul class="{{$type==1?'image-list':'list-wrapper'}}  ">
                     @foreach($sources as $source)
-                    <li>
-                        <a href="{{$type==1? '#':URL::route('sources.share',['id'=>$source->id,'t'=>time()])}}">
-                            <img src="{{AppHelper::imgSrc($source->image->url)}}" class="source-img" />
-                            <div class="source-intro">
-                                <h4>{{$source->title}}</h4>
-                                <p>{{mb_substr($source->summary,0,45,'utf-8')}}.....</p>
-                            </div>
-                        </a>
-                    </li>
+                        @if(isset($source->image->url))
+                            <li>
+                                <a href="{{$type==1? '#':URL::route('sources.share',['id'=>$source->id,'t'=>time()])}}">
+
+                                    <img src="{{AppHelper::imgSrc($source->image->url)}}" class="source-img" />
+
+                                    <div class="source-intro">
+                                        <h4>{{$source->title}}</h4>
+                                        <p>{{mb_substr($source->summary,0,45,'utf-8')}}.....</p>
+                                    </div>
+                                </a>
+                            </li>
+                        @endif
                     @endforeach
                 </ul>
             </div>

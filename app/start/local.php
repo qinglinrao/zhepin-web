@@ -508,13 +508,13 @@ function get_follow_link_name($type,$sc=false){
 
     switch($type){
         case 1:
-            return '代理商';
+            return '门店';
             break;
         case 2:
-            return '代理商';
+            return '店员';
             break;
         case 3:
-            return '代理商';
+            return '消费者A';
             break;
         case 4:
             return '客户';

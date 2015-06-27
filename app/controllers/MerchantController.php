@@ -98,7 +98,7 @@ class MerchantController extends BaseController {
                 $merchant->merchant_grade = $leader->merchant_grade + 1;
                 $merchant->leader = $leader->id;
             }else{
-                $merchant->merchant_grade = 3;
+                $merchant->merchant_grade = 1;
                 $merchant->leader = 0;
             }
             try{

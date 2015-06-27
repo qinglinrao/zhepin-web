@@ -4,7 +4,6 @@ $(document).ready(function(){
 
 
 	$("#fileclick").click(function(){
-		 console.log(111);
 	     $(this).parent().find('input').click();
 	})
 

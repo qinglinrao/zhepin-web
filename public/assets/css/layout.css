@@ -244,7 +244,7 @@ a {
     #header .right .categories {
       background-image: url("../images/cat_icon.png"); }
     #header .right .links-toggle-button {
-      background-image: url("../images/icon-menu.png"); }
+        background-image: url("../images/cat_icon.png"); }
     #header .right .home {
       background-image: url("../images/home_icon_1.png"); }
     #header .right .shopping-cart {

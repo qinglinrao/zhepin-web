@@ -10,7 +10,7 @@ class MerchantObserver {
     public function created($model)
     {
 
-        try{
+        /*try{
             DB::beginTransaction();
             self::createNewAccount($model);
             self::createNewShop($model);
@@ -18,7 +18,7 @@ class MerchantObserver {
         }catch (Exception $e){
             DB::rollBack();
             throw $e;
-        }
+        }*/
 
 
     }

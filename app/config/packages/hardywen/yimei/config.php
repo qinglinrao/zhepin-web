@@ -43,5 +43,5 @@ return array(
 	 * [CODE] 将被替换成验证码。
 	 */
 
-	'contentTpl' => '【UNES优理氏】您好，您的验证码是[CODE],请小心保管，不要泄漏。'
+	'contentTpl' => '【哲品】您好，您的验证码是[CODE],请小心保管，不要泄漏。'
 );
